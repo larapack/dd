@@ -16,3 +16,4 @@
   "autoload": {
     "files": ["src/helper.php"]
   }
+}
