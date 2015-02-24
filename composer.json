@@ -1,0 +1,18 @@
+{
+  "name": "marktopper/dd",
+  "description": "`dd` is a helper method in Laravel. This package will add the `dd` to your application.",
+  "version": "1.0",
+  "license": "MIT",
+  "type": "package",
+  "authors": [
+      {
+        "name": "Mark Topper",
+        "email": "hi@webman.io"
+      }
+  ],
+  "require": {
+    "symfony/var-dumper": "*"
+  },
+  "autoload": {
+    "files": ["src/helper.php"]
+  }
