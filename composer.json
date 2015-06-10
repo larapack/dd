@@ -1,5 +1,5 @@
 {
-  "name": "marktopper/dd",
+  "name": "larapack/dd",
   "description": "`dd` is a helper method in Laravel. This package will add the `dd` to your application.",
   "version": "1.0",
   "license": "MIT",
