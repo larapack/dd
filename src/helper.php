@@ -8,3 +8,11 @@ if (!function_exists('dd')) {
         die();
     }
 }
+
+if (!function_exists('d')) {
+    function d()
+    {
+        $args = func_get_args();
+        call_user_func_array('dump', $args);
+    }
+}
