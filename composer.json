@@ -1,7 +1,7 @@
 {
   "name": "larapack/dd",
   "description": "`dd` is a helper method in Laravel. This package will add the `dd` to your application.",
-  "version": "1.0",
+  "version": "1.1",
   "license": "MIT",
   "type": "package",
   "authors": [
