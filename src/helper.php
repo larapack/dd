@@ -1,5 +1,14 @@
 <?php
 
+if (!function_exists('ddd')) {
+    function ddd()
+    {
+        $args = func_get_args( );
+        call_user_func_array('dump', $args);
+        die();
+    }
+}
+
 if (!function_exists('dd')) {
     function dd()
     {
